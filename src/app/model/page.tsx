@@ -47,12 +47,7 @@ const ModalLayout = () => {
     e.preventDefault();
     setLoading(true);
 
-    const API_KEY =
-      "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";
-
-    const invokeUrl =
-      'https://health.api.nvidia.com/v1/biology/nvidia/molmim/generate';
-
+    const invokeUrl = 'api/generateMolecule';
     const payload = {
       algorithm: "CMA-ES",
       num_molecules: parseInt(numMolecules),
@@ -68,7 +63,7 @@ const ModalLayout = () => {
       const response = await fetch(invokeUrl, {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${API_KEY}`,
+         // Authorization: `Bearer ${API_KEY}`,
           Accept: "application/json",
           "Content-Type": "application/json",
         },
