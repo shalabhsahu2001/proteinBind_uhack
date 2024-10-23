@@ -29,7 +29,7 @@
     "jsvectormap": "^1.6.0",
     "lodash": "^4.17.21",
     "lucide-react": "^0.427.0",
-    "mongodb": "^6.3.0",
+    "mongodb": "^6.10.0",
     "mongoose": "^8.1.1",
     "next": "^14.2.4",
     "next-auth": "^4.24.7",

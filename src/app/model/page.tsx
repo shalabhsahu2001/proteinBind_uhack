@@ -51,7 +51,7 @@ const ModalLayout = () => {
       "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";
 
     const invokeUrl =
-      "https://health.api.nvidia.com/v1/biology/nvidia/molmim/generate";
+      'https://health.api.nvidia.com/v1/biology/nvidia/molmim/generate';
 
     const payload = {
       algorithm: "CMA-ES",
